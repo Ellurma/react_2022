@@ -1,9 +1,13 @@
 import React from 'react';
+import css from './Button.module.css'
+import {Link} from "react-router-dom";
 
-const Button = () => {
+const Button = ({to,state,children}) => {
     return (
         <div>
-
+            <Link to={to} state={state}>
+            <button className={css.button}>{children}</button>
+            </Link>
         </div>
     );
 };
