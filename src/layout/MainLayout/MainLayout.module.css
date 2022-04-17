@@ -1,0 +1,11 @@
+.header{
+    height: 100px;
+    background: #61dafb;
+    color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-size: 50px;
+
+}
+.header [class='active']{color: red}
